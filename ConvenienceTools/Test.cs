@@ -13,6 +13,8 @@ namespace Cutls
             Console.WriteLine(
                 arr.Select(i => i.ToString()).Aggregate((a, b) => $"{a}, {b}")
                 );
+
+            Console.WriteLine("abcdefg".rng(1, 3));
         }
     }
 }
