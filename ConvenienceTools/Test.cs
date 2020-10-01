@@ -15,6 +15,7 @@ namespace Cutls
                 );
 
             Console.WriteLine("abcdefg".rng(1, 3));
+            Console.WriteLine("abcdefg".rng(-20, 50));
         }
     }
 }
