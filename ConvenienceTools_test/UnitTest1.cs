@@ -44,7 +44,7 @@ namespace ConvenienceTools_test
         }
 
         [TestMethod]
-        public void CrossedBoudaries()
+        public void CrossedBoundaries()
         {
             Assert.AreEqual("0123".rng(3,1), "");
         }

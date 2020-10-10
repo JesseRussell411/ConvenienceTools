@@ -74,6 +74,7 @@ namespace ConvenienceTools
             // Panic and give up.
             if (s.Length == 0) { return ""; }
             if (start > end) { return ""; }
+            if (start == end) { return ""; }
             //
 
 
