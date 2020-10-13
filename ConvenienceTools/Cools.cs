@@ -47,7 +47,7 @@ namespace ConvenienceTools
 
         public static string[] Ems { get { return new string[0]; } }
         public static int[] Emi { get { return new int[0]; } }
-        public static int[] Emb { get { return new int[0]; } }
+        public static bool[] Emb { get { return new bool[0]; } }
         public static double[] Emd { get { return new double[0]; } }
         public static List<string> Lems { get { return new List<string>(); } }
         public static List<int> Lemi { get { return new List<int>(); } }
